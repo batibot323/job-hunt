@@ -16,7 +16,12 @@ This repository is my lean, focused toolkit for job hunting. No application-spec
   2026-q2.md  — Brag doc for Q2 2026
   2026-q1/    — (optional) Supporting evidence for Q1
 /prep/        — Interview preparation materials
+/YYYY-N/      — Active working folder for current job hunt cycle
 ```
+
+### Working Folder
+
+Use a top-level working folder (e.g., `2026-2/`) for the current job hunt cycle. This is where active prep, notes, and context live. When the cycle ends, summarize key learnings into the upper-level folders (brag docs, CV updates, etc.) and archive or delete the working folder.
 
 ### Naming Conventions
 
