@@ -30,33 +30,35 @@ At DragonPay, I became the person teams pull in when critical incidents happen �
 - In incidents, speed of coordination matters more than perfect information
 - Having cross-functional relationships before incidents happen is critical
 - Staying calm signals to others that the situation is manageable
+- Log things you do in a Slack thread
 
 ---
 
-## 2. Technical Leadership — Tech Recon Vision
+## 2. Technical Leadership — Tech Recon (Final)
 
-**Hook:** Identified a critical gap and rallied teams to solve it
+**Hook:** Identified a critical gap, defined what good looks like, and made it happen
 
 ### Context
-DragonPay's reconciliation system had gaps — we couldn't reliably detect money loss across all channels. Different teams owned different pieces, but no one owned the holistic problem. This was a regulatory risk and an operational nightmare.
+DragonPay's reconciliation system had gaps — we couldn't reliably detect money loss across all channels. Different teams had built their own understanding of the system, but those models had drifted from reality. This was a regulatory risk and an operational nightmare.
 
 ### Action
-- Diagnosed the root problem: fragmented ownership, no unified vision
-- Defined what "good" looks like — comprehensive, exhaustive, auditable, encompassing
-- Built the case for why this mattered (regulatory audits, money loss prevention)
-- Socialized the vision across teams and got buy-in
-- Drove cross-team alignment without formal authority
-- Steered technical direction through 1:1s and planning sessions
+- Dug into how things actually worked, surfaced the gaps, realigned everyone
+- Defined what "good" looks like: comprehensive, exhaustive, auditable, encompassing
+- Ran a workshop to align on what really happens and build shared vocabulary
+- Cut through the "we cannot" statements and focused on essential questions
+- 70 channels to cover — separated them into pods so they work through their group of channels
 
 ### Result
-- Teams are now actively building toward the unified vision
-- Work in progress, but I moved us from "everyone owns a piece, no one owns the whole" to aligned execution
-- Directly supports regulatory audits with auditable transaction matching
+- Moved from "everyone owns a piece, no one owns the whole" to aligned execution
+- Got answers, not documentation — real progress instead of busywork
+- Teams got the correct understanding of how the platform and data work
+- Reduced engineering toil by equipping F&A + FinOps teams to handle issues on their own
 
 ### Learning
-- Influence without authority requires making others see the problem as their own
 - Articulating "what good looks like" is half the battle
-- Technical leadership is often about connecting dots others don't see
+- Shared understanding is essential before execution can work
+- Structure the work so people can move in parallel without stepping on each other
+- Listen so you can speak their language and solve better for them
 
 ---
 
@@ -182,3 +184,6 @@ _Add more stories here as you remember them_
 - BDO multi-match fix (70 man-hours saved monthly)
 - BPI Auto Debit (1 month delivery, led project)
 - Shopee/Netbank VA unblock
+
+
+
