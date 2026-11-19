@@ -61,3 +61,13 @@ This repo is for preparation, not learning. Questions, frameworks, and practice 
 2. **Separate concerns** — Applications go elsewhere; this is the source of truth for career materials
 3. **Stay current** — Quarterly brag doc reviews, annual resume refreshes
 4. **Prepare, don't cram** — Consistent maintenance beats last-minute scrambling
+
+
+---
+
+## Writing Style
+
+When drafting documents in this repo:
+- Avoid sounding like AI. Skip the em dashes.
+- Use commas and periods. Keep sentences direct.
+- Match my voice, not a polished corporate tone.

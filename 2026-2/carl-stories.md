@@ -85,6 +85,7 @@ At DragonPay, I mentor across levels — mid-senior engineers, BAs, QAs, IT supp
 - Mentorship is about asking questions, not giving answers
 - Investing in others' capability pays dividends when you can't be everywhere
 - People remember how you made them feel more than what you told them
+- I used to expect everyone to move as fast as I do, I've learned that's counterproductive. You meet people where they are and help them grow from there"
 
 ---
 
@@ -93,7 +94,7 @@ At DragonPay, I mentor across levels — mid-senior engineers, BAs, QAs, IT supp
 **Hook:** Not just a tech guy — the de facto co-head of IT
 
 ### Context
-At DragonPay, I don't operate as a pure technologist. I understand the business — revenue impact, regulatory requirements, operational constraints. This means I can make calls that balance technical debt against business needs.
+At DragonPay, I don't operate as a pure technologist. I understand the business — revenue impact, regulatory requirements, operational constraints. This means I can make calls that balance technical debt against business needs. I weigh value, cost, effort, speed, potential, risk, tech debt, scalability.
 
 ### Action
 - Learned the business domain quickly by engaging Ops, FinOps, and other non-engineering teams
@@ -103,6 +104,7 @@ At DragonPay, I don't operate as a pure technologist. I understand the business 
 
 ### Result
 - Operate as de facto co-head of IT — trusted to make business-aware decisions
+- I put the business in engineering and engineering across all teams
 - Can represent IT in regulatory audits because I understand both sides
 - Build solutions that actually solve business problems, not just technical puzzles
 
@@ -123,7 +125,7 @@ DragonPay faces regular regulatory audits requiring IT involvement. Auditors nee
 ### Action
 - Served as the primary IT representative in multiple regulatory audits
 - Provided data and technical explanations in auditor-friendly language
-- Acted as knowledge conduit — gathered information from different teams
+- Acted as knowledge conduit — gathered information for different teams
 - Built the tech recon system specifically to support audit requirements (auditable transaction matching)
 
 ### Result
@@ -132,9 +134,9 @@ DragonPay faces regular regulatory audits requiring IT involvement. Auditors nee
 - Tech recon system now directly supports audit evidence requirements
 
 ### Learning
-- Regulatory work is thankless but critical — doing it well builds trust
 - Auditors appreciate someone who speaks their language, not just raw data dumps
 - Building audit-ready systems upfront saves pain later
+- Full transparency with internal teams. With external parties, only what they need to know
 
 ---
 
@@ -155,6 +157,7 @@ At both Xendit and DragonPay, I've taken on multiple domains rather than staying
 - Expanded impact by touching more surface area
 - Became the person people go to because I have context across domains
 - Can connect dots that specialists miss because I see the whole picture
+- Became someone the company can put in front of partners and stakeholders
 
 ### Learning
 - Breadth and depth aren't opposites — you can have both
@@ -187,3 +190,28 @@ _Add more stories here as you remember them_
 
 
 
+
+
+---
+
+## 7. Handling Disagreement
+
+**Hook:** I don't see conflict, I see discussion. Strong arguments get sharpened, weak ones fall to scrutiny.
+
+### Context
+Had a technical disagreement with a teammate. It started feeling like a 2v1, which I didn't want. He wasn't feeling heard. I could've won by democracy but that's not the correct way to do things.
+
+### Action
+- Recognized the dynamic was off and changed the approach
+- Proposed we sit down together and write out the pros/cons of each approach, together
+- Self-think and write for 15 minutes, then come back and work on it together
+- Let the writing create clarity, then discuss from that shared foundation
+
+### Result
+- Defused the tension by making it collaborative, not adversarial
+- Got to a decision we both understood and could commit to
+- He felt heard because we literally wrote it down together
+
+### Learning
+- Writing gives you clarity, but shared writing builds alignment
+- Passionate people are good to have in your team, just give them direction
