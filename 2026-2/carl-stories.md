@@ -6,27 +6,49 @@ These are reusable interview stories. Fill in specific details before interviews
 
 ---
 
-## 1. Incident Command
+## Quick Reference — Story Mapping
+
+| Interview Theme | Stories to Use |
+|-----------------|----------------|
+| Leadership | Incident Command, Tech Recon, Mentorship |
+| Technical Depth | Tech Recon, First Principles, Multi-Hatting |
+| Handling Pressure | Incident Command, First Principles |
+| Handling Conflict | Handling Disagreement |
+| Collaboration | Regulatory Audits, Multi-Hatting, Mentorship, Handling Disagreement |
+| Business Acumen | Business-Driven Engineering, Regulatory Audits |
+| Growth Mindset | Mentorship, Multi-Hatting |
+| Problem Solving | First Principles, Tech Recon |
+| Failure / Mistake | _TODO_ |
+| Prioritization | _TODO_ |
+| Giving Hard Feedback | _TODO_ |
+| Saying No | _TODO_ |
+| Learning New Tech | _TODO_ |
+
+---
+
+## Stories
+
+### 1. Incident Command
 
 **Hook:** The go-to person when production burns
 
-### Context
-At DragonPay, I became the person teams pull in when critical incidents happen — production outages, money-loss fires, payment failures affecting merchants. These are high-stakes, time-sensitive situations requiring coordination across Engineering, Ops, FinOps, and sometimes external partners.
+#### Context
+At DragonPay, I became the person teams pull in when critical incidents happen, production outages, money-loss fires, payment failures affecting merchants. These are high-stakes, time-sensitive situations requiring coordination across Engineering, Ops, FinOps, and sometimes external partners.
 
-### Action
-- Established myself as incident commander — the calm center in chaos
+#### Action
+- Established myself as incident commander, the calm center in chaos
 - Quickly triaged issues to understand blast radius and financial impact
 - Pulled in the right teams across the org, even outside my direct scope
 - Made decisive calls when information was incomplete
 - Communicated status to stakeholders while coordinating technical response
 
-### Result
+#### Result
 - Consistently resolved incidents faster by having a single point of coordination
 - Prevented money loss through quick response and clear ownership
-- Built trust across the org — people know to call me when things break
+- Built trust across the org, people know to call me when things break
 - My mettle's been tested repeatedly; I've proven reliable under pressure
 
-### Learning
+#### Learning
 - In incidents, speed of coordination matters more than perfect information
 - Having cross-functional relationships before incidents happen is critical
 - Staying calm signals to others that the situation is manageable
@@ -34,27 +56,27 @@ At DragonPay, I became the person teams pull in when critical incidents happen �
 
 ---
 
-## 2. Technical Leadership — Tech Recon (Final)
+### 2. Technical Leadership — Tech Recon
 
 **Hook:** Identified a critical gap, defined what good looks like, and made it happen
 
-### Context
-DragonPay's reconciliation system had gaps — we couldn't reliably detect money loss across all channels. Different teams had built their own understanding of the system, but those models had drifted from reality. This was a regulatory risk and an operational nightmare.
+#### Context
+DragonPay's reconciliation system had gaps, we couldn't reliably detect money loss across all channels. Different teams had built their own understanding of the system, but those models had drifted from reality. This was a regulatory risk and an operational nightmare.
 
-### Action
+#### Action
 - Dug into how things actually worked, surfaced the gaps, realigned everyone
 - Defined what "good" looks like: comprehensive, exhaustive, auditable, encompassing
 - Ran a workshop to align on what really happens and build shared vocabulary
 - Cut through the "we cannot" statements and focused on essential questions
-- 70 channels to cover — separated them into pods so they work through their group of channels
+- 70 channels to cover, separated them into pods so they work through their group of channels
 
-### Result
+#### Result
 - Moved from "everyone owns a piece, no one owns the whole" to aligned execution
-- Got answers, not documentation — real progress instead of busywork
+- Got answers, not documentation, real progress instead of busywork
 - Teams got the correct understanding of how the platform and data work
 - Reduced engineering toil by equipping F&A + FinOps teams to handle issues on their own
 
-### Learning
+#### Learning
 - Articulating "what good looks like" is half the battle
 - Shared understanding is essential before execution can work
 - Structure the work so people can move in parallel without stepping on each other
@@ -62,120 +84,159 @@ DragonPay's reconciliation system had gaps — we couldn't reliably detect money
 
 ---
 
-## 3. Mentorship
+### 3. Mentorship
 
 **Hook:** Trains and mentors the entire IT team
 
-### Context
-At DragonPay, I mentor across levels — mid-senior engineers, BAs, QAs, IT support. The team needed someone who could bridge technical depth with business context. I also run 1:1s with Anton, Jelo, Claire, and Cherry to help them plan and make better decisions.
+#### Context
+At DragonPay, I mentor across levels, mid-senior engineers, BAs, QAs, IT support. The team needed someone who could bridge technical depth with business context. I also run 1:1s with Anton, Jelo, Claire, and Cherry to help them plan and make better decisions.
 
-### Action
+#### Action
 - Created space for regular 1:1s focused on their growth, not just task updates
 - Taught business intelligence data gathering to non-technical stakeholders
 - Helped Claire think through marketing rebranding for payment pages
 - Guided Cherry on merchant URL verification approaches
 - Steered technical conversations during planning to better outcomes
 
-### Result
+#### Result
 - Team members make better decisions independently
-- I've multiplied my impact — they can now solve problems I don't have to touch
+- I've multiplied my impact, they can now solve problems I don't have to touch
 - Cross-functional teams come to me for consultation even outside my scope
 
-### Learning
+#### Learning
 - Mentorship is about asking questions, not giving answers
 - Investing in others' capability pays dividends when you can't be everywhere
 - People remember how you made them feel more than what you told them
-- I used to expect everyone to move as fast as I do, I've learned that's counterproductive. You meet people where they are and help them grow from there"
+- I used to expect everyone to move as fast as I do, I've learned that's counterproductive. You meet people where they are and help them grow from there
 
 ---
 
-## 4. Business-Driven Engineering
+### 4. Business-Driven Engineering
 
-**Hook:** Not just a tech guy — the de facto co-head of IT
+**Hook:** Not just a tech guy, the de facto co-head of IT
 
-### Context
-At DragonPay, I don't operate as a pure technologist. I understand the business — revenue impact, regulatory requirements, operational constraints. This means I can make calls that balance technical debt against business needs. I weigh value, cost, effort, speed, potential, risk, tech debt, scalability.
+#### Context
+At DragonPay, I don't operate as a pure technologist. I understand the business, revenue impact, regulatory requirements, operational constraints. This means I can make calls that balance technical debt against business needs. I weigh value, cost, effort, speed, potential, risk, tech debt, scalability.
 
-### Action
+#### Action
 - Learned the business domain quickly by engaging Ops, FinOps, and other non-engineering teams
 - Prioritize work based on business impact, not just technical elegance
 - Make tradeoff decisions that account for revenue, compliance, and operations
 - Translate technical systems into business language for stakeholders and auditors
 
-### Result
-- Operate as de facto co-head of IT — trusted to make business-aware decisions
+#### Result
+- Operate as de facto co-head of IT, trusted to make business-aware decisions
 - I put the business in engineering and engineering across all teams
 - Can represent IT in regulatory audits because I understand both sides
 - Build solutions that actually solve business problems, not just technical puzzles
 
-### Learning
+#### Learning
 - The best engineers understand why the business exists, not just how systems work
 - Speaking business language opens doors that pure technical talk doesn't
 - Context switching between tech and business is a superpower
 
 ---
 
-## 5. Regulatory Audits
+### 5. Regulatory Audits
 
-**Hook:** Major contributor to regulator audits — the conduit across teams
+**Hook:** Major contributor to regulator audits, the conduit across teams
 
-### Context
+#### Context
 DragonPay faces regular regulatory audits requiring IT involvement. Auditors need data, explanations, and assurance that systems work correctly. This requires someone who can bridge IT, product, and compliance.
 
-### Action
+#### Action
 - Served as the primary IT representative in multiple regulatory audits
 - Provided data and technical explanations in auditor-friendly language
-- Acted as knowledge conduit — gathered information for different teams
+- Acted as knowledge conduit, gathered information for different teams
 - Built the tech recon system specifically to support audit requirements (auditable transaction matching)
 
-### Result
+#### Result
 - Audits pass smoothly with IT as an enabler, not a bottleneck
 - Built reputation as someone who can translate between technical and regulatory worlds
 - Tech recon system now directly supports audit evidence requirements
 
-### Learning
+#### Learning
 - Auditors appreciate someone who speaks their language, not just raw data dumps
 - Building audit-ready systems upfront saves pain later
 - Full transparency with internal teams. With external parties, only what they need to know
 
 ---
 
-## 6. Multi-Hatting / Wearing Many Hats
+### 6. Multi-Hatting / Wearing Many Hats
 
-**Hook:** Breadth across domains — VAs, tech recon, security, integrations
+**Hook:** Breadth across domains, VAs, tech recon, security, integrations
 
-### Context
+#### Context
 At both Xendit and DragonPay, I've taken on multiple domains rather than staying narrow. I've owned VAs, tech recon, beto tools, security upgrades, partner integrations, and more. I don't silo.
 
-### Action
+#### Action
 - Actively sought out adjacent problems when I saw gaps
 - Took on domain ownership beyond my original scope (VAs, tech recon, security)
 - Helped and consulted on other teams' matters, even when not my responsibility
 - Led cross-functional initiatives like org-wide security upgrades (working with sales, marketing, engineering)
 
-### Result
+#### Result
 - Expanded impact by touching more surface area
 - Became the person people go to because I have context across domains
 - Can connect dots that specialists miss because I see the whole picture
 - Became someone the company can put in front of partners and stakeholders
 
-### Learning
-- Breadth and depth aren't opposites — you can have both
+#### Learning
+- Breadth and depth aren't opposites, you can have both
 - Being helpful outside your lane builds social capital and influence
 - Silos are the enemy of good outcomes; cross-domain awareness prevents blind spots
 
 ---
 
-## Quick Reference — Story Mapping
+### 7. Handling Disagreement
 
-| Interview Theme | Stories to Use |
-|-----------------|----------------|
-| Leadership | Incident Command, Tech Recon Vision, Mentorship |
-| Technical Depth | Tech Recon Vision, Multi-Hatting |
-| Handling Pressure | Incident Command |
-| Collaboration | Regulatory Audits, Multi-Hatting, Mentorship |
-| Business Acumen | Business-Driven Engineering, Regulatory Audits |
-| Growth Mindset | Mentorship, Multi-Hatting |
+**Hook:** I don't see conflict, I see discussion. Strong arguments get sharpened, weak ones fall to scrutiny.
+
+#### Context
+Had a technical disagreement with a teammate. It started feeling like a 2v1, which I didn't want. He wasn't feeling heard. I could've won by democracy but that's not the correct way to do things.
+
+#### Action
+- Recognized the dynamic was off and changed the approach
+- Proposed we sit down together and write out the pros/cons of each approach, together
+- Self-think and write for 15 minutes, then come back and work on it together
+- Let the writing create clarity, then discuss from that shared foundation
+
+#### Result
+- Defused the tension by making it collaborative, not adversarial
+- Got to a decision we both understood and could commit to
+- He felt heard because we literally wrote it down together
+
+#### Learning
+- Writing gives you clarity, but shared writing builds alignment
+- Passionate people are good to have in your team, just give them direction
+
+---
+
+### 8. First Principles Problem Solving
+
+**Hook:** Cut through "we cannot" statements by separating solvable problems from constraint problems
+
+#### Context
+FinOps and F&A teams presented a wall of reasons why tech recon couldn't work. So many issues, so many edge cases. The problem felt huge and overwhelming.
+
+#### Action
+- Distilled issues into two buckets: things engineering can solve vs hard problems that are constraint-driven (partnerships need to fix)
+- Back and forth between understanding issues on the ground and thinking from first principles
+- Started from first principles, then layered in real issues one by one
+- Distilled to a few essential questions. Turns out for the significant channels, the answers were favorable
+- Acknowledged F&A concerns but sized them correctly: some issues had insignificant volumes (mountains out of molehills)
+- Told them: yes, you're correct, but that's a partnerships thing, our hands are tied. Let's solve the base case while they work on changing constraints for the few terrible scenarios
+
+#### Result
+- Unblocked progress by focusing on solvable problems first
+- Stopped letting perfect be the enemy of good
+- Teams understood the difference between "we cannot (ever)" and "we cannot (until partnerships fix it)"
+
+#### Learning
+- Don't let the scope overwhelm you. Break it down.
+- Separate what you can control from what you can't
+- Solve the base case first. The edge cases are often smaller than they seem
+- F&A needs full auditability and that's valid, but size the problem before panicking
 
 ---
 
@@ -187,31 +248,3 @@ _Add more stories here as you remember them_
 - BDO multi-match fix (70 man-hours saved monthly)
 - BPI Auto Debit (1 month delivery, led project)
 - Shopee/Netbank VA unblock
-
-
-
-
-
----
-
-## 7. Handling Disagreement
-
-**Hook:** I don't see conflict, I see discussion. Strong arguments get sharpened, weak ones fall to scrutiny.
-
-### Context
-Had a technical disagreement with a teammate. It started feeling like a 2v1, which I didn't want. He wasn't feeling heard. I could've won by democracy but that's not the correct way to do things.
-
-### Action
-- Recognized the dynamic was off and changed the approach
-- Proposed we sit down together and write out the pros/cons of each approach, together
-- Self-think and write for 15 minutes, then come back and work on it together
-- Let the writing create clarity, then discuss from that shared foundation
-
-### Result
-- Defused the tension by making it collaborative, not adversarial
-- Got to a decision we both understood and could commit to
-- He felt heard because we literally wrote it down together
-
-### Learning
-- Writing gives you clarity, but shared writing builds alignment
-- Passionate people are good to have in your team, just give them direction
