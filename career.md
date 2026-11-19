@@ -18,6 +18,13 @@ This repository is my lean, focused toolkit for job hunting. No application-spec
 /prep/        — Interview preparation materials
 ```
 
+### Naming Conventions
+
+**Brag docs:**
+- Single quarter: `brag-YYYY-qN.md` (e.g., `brag-2026-q1.md`)
+- Spanning quarters: `brag-YYYY-qN-YYYY-qN.md` (e.g., `brag-2025-q4-2026-q1.md`)
+- Supporting evidence folders follow the same pattern without `.md`
+
 ---
 
 ## Core Documents
